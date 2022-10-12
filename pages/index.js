@@ -15,8 +15,10 @@ export default function Home() {
         <main>
           <div className="grid max-w-6xl grid-cols-2 gap-4 px-6 py-6 mx-auto md:grid-cols-3 lg:grid-cols-4">
             <div className="col-span-2 row-span-1 border-4 hover:border-orange-300 rounded-3xl bg-white">
-              <div className="p-6">
-                <img className="mx-auto max-h-28" src="/image/3.png" alt="logo" width="200px" height="150px" />
+              <div className="p-6 justify-center">
+                <div className="ml-40">
+                <Img src="/image/3.png" alt="logo" width="200px" height="150px" />
+                </div>
                 <p className="mt-4 text-lg text-center">Hello 👋 ! Im; Thomas, a freelance developer and indie maker from France. I work with Vue, Tailwind, Figma, and a laptop. Oh and Im very funny.</p>
               </div>
             </div>
