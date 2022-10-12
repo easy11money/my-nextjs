@@ -27,9 +27,10 @@ function About() {
                     </div>
                     <div className="col-span-2 row-span-1 border-4 hover:border-orange-300 rounded-3xl bg-white">
                         <div className="p-6">
-                        <div className="ml-40">
+                        <div className="mx-40">
                 <Img src="/image/3.png" alt="logo" width="200px" height="150px" />
-                </div>                            <p className="mt-4 text-1xlg text-center">Hello 👋 ! I m<strong className="font-bold text-orange-300 text-3xl">Thomas</strong>  a freelance developer and indie maker from France  I work with Vue  Tailwind  Figma  and a laptop  Oh and Im very funny </p>
+                </div>                         
+                            <p className="mt-4 text-1xlg text-center">Hello 👋 ! I m<strong className="font-bold text-orange-300 text-3xl">Thomas</strong>  a freelance developer and indie maker from France  I work with Vue  Tailwind  Figma  and a laptop  Oh and Im very funny </p>
                         </div>
                     </div>
                     <div className="flex flex-col  text-center space-y-6 cursor-pointer">
