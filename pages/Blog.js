@@ -27,9 +27,9 @@ export default function Blog({ posts }) {
 
 
                 <div className=" cursor-pointer grid max-w-6xl grid-cols-2 gap-4 px-6 py-6 mx-auto md:grid-cols-3 lg:grid-cols-4">
-                    {posts.map((item) => (
-                        <Link href={'/Blog/' + item.id}>
-                            <div key={item.id} className="col-span-2 row-span-1 border-4 hover:border-orange-300 rounded-3xl bg-white">
+                    {posts.map((item,index) => (
+                        <Link key={item.id}  href={'/Blog/' + item.id}>
+                            <div className="col-span-2 row-span-1 border-4 hover:border-orange-300 rounded-3xl bg-white">
                                 <div className="p-6 flex flex-col items-start justify-between h-full space-y-4 group">
                                     <h1 className="text-2xl font-bold text-gray-500">{item.title}</h1>
                                     <p className="text-lg">{item.body}</p>

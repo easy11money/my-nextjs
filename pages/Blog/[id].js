@@ -24,13 +24,15 @@ export const getStaticProps = async (context) => {
 
 function Detail({allpost}) {
     return(
-        <div className="bg-gray-200 pb-96">
-        <div className="bg-gray-200 border-2 p-4 mx-5  border-orange-200 rounded-lg">
-         <h1 className="text-lg underline text-red-500">Post Id:{allpost.id}</h1>
-          <h4>Title:{allpost.title}</h4><br/>
-          <h4>Body:{allpost.body}</h4>
-        </div>
-        </div>
-    )
-}
+        <>
+            <div className="bg-gray-200 pb-96">
+                <div className="bg-gray-200 border-2 p-4 mx-5  border-orange-200 rounded-lg">
+                    <h1 className="text-lg underline text-red-500">Post Id:{allpost.id}</h1>
+                    <h4>Title:{allpost.title}</h4><br />
+                    <h4>Body:{allpost.body}</h4>
+                </div>
+            </div>
+       
+        </>
+            )}
 export default Detail;
